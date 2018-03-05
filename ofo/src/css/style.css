@@ -1,0 +1,77 @@
+body{
+    font-size: .12rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: .45rem;
+    background-color: #fff;
+}
+h1{
+    font-size: .18rem;
+    text-align: center;
+    line-height: .45rem;
+    color: yellow;    
+}
+section{
+    overflow-y: hidden;
+    background-color: #fff;
+}
+.banner{
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    height: .45rem;
+    line-height: 45px;
+    background: red;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .1rem;
+}
+li{
+    line-height: .45rem;
+}
+li i{
+    font-size: .2rem;
+    color: #666;
+}
+
+.bb .one{
+    overflow: hidden;
+}
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.top{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background: yellow;
+    text-align: center;
+    line-height: 90px;
+}
+.content-tel input{
+    border-width: 0;
+    outline: none;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+.content-list ul{
+    line-height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content-list li{
+    list-style: none;
+}

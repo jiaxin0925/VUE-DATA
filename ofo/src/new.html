@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <style>
+        .close {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .top{
+            width: 90px;
+            height: 90px;
+            border-radius: 100%;
+            background: yellow;
+            text-align: center;
+            line-height: 90px;
+        }
+        .content-tel input{
+            border-width: 0;
+            outline: none;
+            padding-left: 10px; 
+            padding-right: 10px;
+            border-bottom: 1px solid #cccccc;
+        }
+        .content-list ul{
+            line-height: 30px;
+            width: 100%;
+        }
+        .content-list li{
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="userlist">
+        <span class="close">
+            <i class="icon iconfont icon-guanbi-01"></i>
+        </span>
+        <div class="top">
+            用户
+        </div>
+        <div class="content-tel">
+            <input type="tel" maxlength="11" required placeholder="请输入手机号">
+        </div>
+        <div class="content-list">
+            <ul>
+                <li>
+                    <i class="icon iconfont icon-wodedingdan"></i>
+                    <span>我的行程</span>
+                </li>
+                <li>
+                    <i class="icon iconfont icon-qianbao"></i>
+                    <span>我的钱包</span>
+                </li>
+                <li>
+                    <i class="icon iconfont icon-gerenxinxi"></i>
+                    <span>邀请好友</span>
+                </li>
+                <li>
+                    <i class="icon iconfont icon-kefu"></i>
+                    <span>我的客服</span>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
